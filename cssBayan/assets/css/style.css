@@ -96,10 +96,6 @@ body {
     display: none;
 }
 
-/* .main__label:has(input:checked) {
-    color: var(--color); 
-} */
-
 .main__label:has(input:checked) .main__icon {
     transform: rotateZ(45deg);
     
@@ -163,10 +159,4 @@ body {
     .main__label {
         font-size: 2rem;
     }
-}  
-
-
-
-
-
-
+}
